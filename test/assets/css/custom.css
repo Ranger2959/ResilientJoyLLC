@@ -1,0 +1,54 @@
+body {
+    text-transform: lowercase;
+}
+
+section.committed-to h4 {
+    font-weight: 400;
+    margin-bottom: 5px;
+}
+
+.spotlight.style1 .content {
+    padding: 3em;
+}
+
+.wrapper.style1 > .inner {
+    padding: 3em;
+}
+
+
+.content h2 {
+    margin-bottom: 0px;
+}
+
+.content hr {
+    margin: 25px;
+    border-bottom-color: rgb(0 0 0 / 8%);
+}
+
+section.hello {
+    background: #e9e0db;
+}
+
+section.committed-to {
+    background: #dbccc2;
+}
+
+section.private-yoga {
+
+}
+
+section.community-yoga {
+    background: #e9e0db;
+}
+
+section.faqs {
+    background: #dbccc2;
+}
+
+section.contact {
+
+}
+
+footer {
+    background: #e9e0db;
+}
