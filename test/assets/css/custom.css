@@ -1,5 +1,6 @@
 body {
     text-transform: lowercase;
+    background: #cfbbae;
 }
 
 section.committed-to h4 {
@@ -11,7 +12,7 @@ section.committed-to h4 {
     padding: 3em;
 }
 
-.wrapper.style1 > .inner {
+.wrapper.style1>.inner {
     padding: 3em;
 }
 
@@ -33,8 +34,23 @@ section.committed-to {
     background: #dbccc2;
 }
 
-section.private-yoga {
+section.private-community-yoga .content {
+    max-width: 65% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+}
 
+section.private-community-yoga .content>div {
+    padding: 3em;
+    margin: 0 auto;
+}
+
+section.private-community-yoga .content>div.private-yoga {
+    border-bottom: 1px solid rgb(0 0 0 / 8%);
+}
+
+section.private-community-yoga .content>div.community-yoga {
+    background: #e9e0db;
 }
 
 section.community-yoga {
@@ -45,10 +61,53 @@ section.faqs {
     background: #dbccc2;
 }
 
-section.contact {
-
-}
+section.contact {}
 
 footer {
     background: #e9e0db;
+}
+
+section.home .content {
+    text-align: center;
+}
+
+section.home .content h1 {
+    color: white !important;
+}
+
+section.home .content a {
+    color: white !important;
+}
+
+section.home video {
+    filter: blur(10px) brightness(0.6);
+}
+
+section.private-community-yoga ul {
+    list-style-type: none;
+    padding-left: 0px;
+    font-size: 18px;
+}
+
+section.private-community-yoga p {
+    font-style: italic;
+    margin-bottom: 0px;
+}
+
+section.private-community-yoga li {
+    padding-left: 0px;
+}
+
+section.faqs h3 {
+    font-weight: 400;
+}
+
+footer .copyright {
+    margin-bottom: 0px;
+}
+
+footer .logo {
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
 }
