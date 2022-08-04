@@ -83,6 +83,20 @@ section.home video {
     filter: blur(10px) brightness(0.6);
 }
 
+section.reviews img {
+    filter: blur(10px) brightness(0.6);
+}
+
+section.reviews {
+    height: 750px;
+    min-height: auto !important;
+}
+
+section.reviews h2 {
+    color: white;
+    text-align: center;
+}
+
 section.private-community-yoga ul {
     list-style-type: none;
     padding-left: 0px;
