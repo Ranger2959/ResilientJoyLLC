@@ -86,12 +86,13 @@ section.home video {
 section.private-community-yoga ul {
     list-style-type: none;
     padding-left: 0px;
-    font-size: 18px;
+    font-size: 20px;
 }
 
 section.private-community-yoga p {
     font-style: italic;
     margin-bottom: 0px;
+    font-size: 18px;
 }
 
 section.private-community-yoga li {
@@ -110,4 +111,8 @@ footer .logo {
     height: 250px;
     width: 250px;
     border-radius: 50%;
+}
+
+section.faqs section.last-faq {
+    width: 100% !important;
 }

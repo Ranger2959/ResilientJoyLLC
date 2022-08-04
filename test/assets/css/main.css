@@ -4949,7 +4949,7 @@ input, select, textarea {
 			-webkit-flex-shrink: 1;
 			-ms-flex-shrink: 1;
 			flex-shrink: 1;
-			width: 65%;
+			width: 60%;
 			max-width: 64rem;
 			margin: 0 auto;
 		}
@@ -4963,7 +4963,7 @@ input, select, textarea {
 			-webkit-flex-shrink: 0;
 			-ms-flex-shrink: 0;
 			flex-shrink: 0;
-			width: 35%;
+			width: 40%;
 			min-width: 25rem;
 			border-radius: 0;
 		}
@@ -5002,7 +5002,7 @@ input, select, textarea {
 
 		}
 
-		@media screen and (max-width: 980px) {
+		/* @media screen and (max-width: 980px) {
 
 			.spotlight.style1 .content {
 				padding: 3.75rem 3rem 1.75rem 3rem ;
@@ -5015,9 +5015,10 @@ input, select, textarea {
 				min-width: 0;
 			}
 
-		}
+			
+		} */
 
-		@media screen and (max-width: 736px) {
+		@media screen and (max-width: 980px) {
 
 			.spotlight.style1 .content {
 				padding: 2.5rem 2rem 0.5rem 2rem ;
@@ -5025,7 +5026,7 @@ input, select, textarea {
 
 		}
 
-	@media screen and (max-width: 736px) and (orientation: portrait) {
+	@media screen and (max-width: 980px) and (orientation: portrait) {
 
 		.spotlight.style1 {
 			-moz-flex-direction: column-reverse;
@@ -5056,7 +5057,7 @@ input, select, textarea {
 			flex-direction: row-reverse;
 		}
 
-	@media screen and (max-width: 736px) and (orientation: portrait) {
+	@media screen and (max-width: 980px) and (orientation: portrait) {
 
 		.spotlight.style1.orient-right {
 			-moz-flex-direction: column-reverse;
