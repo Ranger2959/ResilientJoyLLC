@@ -13,7 +13,7 @@
 </head>
 
 <body>
-    <video playsinline="playsinline" autoplay muted playsinline  loop style="width: 500px; height: 500px;">
+    <video id="myVideo" playsinline="playsinline" autoplay muted playsinline  loop style="width: 500px; height: 500px;">
         <source src="../images/home_page_original.mp4" type="video/mp4">
     </video>
     <video playsinline="playsinline" autoplay muted playsinline  loop style="width: 500px; height: 500px;">
@@ -29,6 +29,17 @@
         <source src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4" type="video/mp4">
     </video>
 
-    
+    <script>
+
+        const videoElement = document.getElementById('myVideo');
+
+        videoElement.addEventListener('suspend', () => {
+            console.log("video suspended");
+        });
+
+        videoElement.addEventListener('play', () => {
+            console.log("video playing");
+        });
+    </script>
 </body>
 </html>
