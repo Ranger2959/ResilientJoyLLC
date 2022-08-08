@@ -90,6 +90,7 @@ section.reviews img {
 section.reviews {
     height: 400px;
     min-height: auto !important;
+    padding: 0 !important;
 }
 
 section.reviews h2 {
@@ -131,3 +132,8 @@ footer .logo {
 section.faqs section.last-faq {
     width: 100% !important;
 }
+
+/* Carousel */
+
+  
+ 

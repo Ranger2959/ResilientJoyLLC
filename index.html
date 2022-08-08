@@ -226,11 +226,24 @@
 
 		<section
 			class="banner style5 orient-left content-align-left image-position-right fullscreen onload-image-fade-in onload-content-fade-right reviews">
-			<div class="content">
-				<h2>"words fail when i try to explain Kayla's positive impact on my practice, and beyond. She is such a warn bright light and inspires me to be a gentler, more joyful yogi, mom, wife, sister, daughter, friend."</h2>
-			</div>
 			<div class="image">
 				<img src="images/reviews.jpg"></img>
+			</div>
+			<div class="content">
+
+				<div class="carousel">
+					<h2 class="slides">"words fail when i try to explain Kayla's positive impact on
+						my practice, and beyond. She is such a warn bright light and inspires me to be a gentler, more
+						joyful yogi, mom, wife, sister, daughter, friend."</h2>
+					<h2 class="slides">"Kayla has a range of yoga knowledge to promote full body movement, wellness and
+						growth. She makes yoga and movement exciting with fun tunes."</h2>
+					<h2 class="slides">"Kayla is a kind, thoughtful, and dedicated teacher! I have always struggled
+						getting into yoga but she makes her classes fun and challenging, yet relaxing at the same time.
+						She is incredibly patient and accommodating to all levels. I absolutely recommend practicing
+						yoga with her!"</h2>
+					<h2 class="slides">"You got our bodies moving! I love that you are thoughtful about giving modifications and giving challenges!"</h2>
+					<h2 class="slides">"Kayla’s session was great! As someone who never done a hot yoga class and a beginner, Kayla's session was easy to do and she did amazing when explaining pose transitions. Have done a few sessions after the first initial one. thank you Kayla!"</h2>
+				</div>
 			</div>
 		</section>
 
@@ -301,6 +314,20 @@
 				values[this.name] = $(this).val();
 			});
 			$('#gform').prepend('Thank you for your submission. Resilient joy will reach out soon!').fadeIn(500);
+		});
+
+		$(document).ready(function () {
+
+			$(function () {
+
+				$('.carousel .slides:gt(0)').hide();
+				setInterval(function () {
+					$('.carousel :first-child').fadeOut(0).next('.slides').fadeIn(0)
+						.end().appendTo('.carousel');
+				}, 7000);
+
+			});
+
 		});
 	</script>
 
