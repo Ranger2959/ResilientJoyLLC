@@ -1,0 +1,35 @@
+body, input, select, textarea {
+    font-family: "Source Sans Pro", Helvetica, sans-serif;
+    font-size: 1rem;
+    font-weight: 300;
+    line-height: 1.65;
+}
+
+.nav-link {
+    font-size: 1.5em;
+}
+
+.accordion-button {
+    font-size: 0.65em;
+}
+
+.navbar {
+    background: #cfbbae;
+}
+
+.navbar a {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.nav-link:hover {
+    border-color: transparent !important;
+}
+
+.nav-link {
+    color: black;
+}
+
+.accordion-button:not(.collapsed) {
+    background: none;
+}

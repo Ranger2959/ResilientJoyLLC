@@ -132,7 +132,12 @@ section.faqs section.last-faq {
     width: 100% !important;
 }
 
-/* Carousel */
+.payment-page .nav-tabs .nav-link.active {
+    background: none;
+    border: 0px solid transparent;
+}
 
-  
+.payment-page .nav-tabs {
+    border: 0px solid transparent;
+}
  
