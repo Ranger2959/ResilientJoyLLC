@@ -140,4 +140,30 @@ section.faqs section.last-faq {
 .payment-page .nav-tabs {
     border: 0px solid transparent;
 }
- 
+
+.header-menu {
+    position: absolute;
+    top: 0;
+    z-index: 150000;
+    color: white;
+    padding: 10px 35px;
+    background: rgba(0,0,0,0.5);
+}
+
+.header-menu a {
+    color: white;
+    text-decoration: none;
+}
+
+.header-menu a:first-of-type {
+    padding-right: 10px;
+}
+
+.header-menu a:hover {
+    text-decoration: underline;
+}
+
+a.book-now-button {
+    font-size: 0.5rem !important;
+    font-style: normal;
+}
