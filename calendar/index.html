@@ -42,14 +42,55 @@
             </nav>
         </div>
     </div>
-    <div class="container vh-100">
-
-        <!-- Calendly inline widget begin -->
-        <div class="calendly-inline-widget" data-url="https://calendly.com/resilientjoyllc" style="min-width:320px;height:100%;"></div>
-        <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
-        <!-- Calendly inline widget end -->
+    <div class="container vh-100" id="test">
 
     </div>
+
+    <script>
+      (function (C, A, L) {
+        let p = function (a, ar) {
+          a.q.push(ar);
+        };
+        let d = C.document;
+        C.Cal =
+          C.Cal ||
+          function () {
+            let cal = C.Cal;
+            let ar = arguments;
+            if (!cal.loaded) {
+              cal.ns = {};
+              cal.q = cal.q || [];
+              d.head.appendChild(d.createElement("script")).src = A;
+              cal.loaded = true;
+            }
+            if (ar[0] === L) {
+              const api = function () {
+                p(api, arguments);
+              };
+              const namespace = ar[1];
+              api.q = api.q || [];
+              typeof namespace === "string" ? (cal.ns[namespace] = api) && p(api, ar) : p(cal, ar);
+              return;
+            }
+            p(cal, ar);
+          };
+        })(window, "https://cal.com/embed.js", "init");
+        Cal("init")
+      </script>
+
+  <script>
+    Cal("inline", {
+      elementOrSelector: "#test", // You can also provide an element directly
+      calLink: "resilient-joy", // The link that you want to embed. It would open https://cal.com/jane in embed
+      config: {
+        name: "", // Prefill Name
+        email: "", // Prefill Email
+        notes: "", // Prefill Notes
+        guests: [], // Prefill Guests
+        theme: "light", // "dark" or "light" theme
+      },
+    });
+  </script>
 </body>
 
 </html>
