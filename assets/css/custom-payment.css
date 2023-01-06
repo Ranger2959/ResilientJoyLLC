@@ -37,3 +37,21 @@ body, input, select, textarea {
 .offerings a {
     color: inherit !important;
 }
+
+.events-sign-up-button {
+    background: #794bb7;
+    color: white !important;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.override-primary {
+    border-color: #794bb7;
+    color: #794bb7;
+}
+
+.override-primary:hover {
+    background: #794bb7;
+    border-color: #794bb7;
+}
