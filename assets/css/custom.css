@@ -7,14 +7,9 @@ section.committed-to h4 {
     margin-bottom: 5px;
 }
 
-.spotlight.style1 .content {
-    padding: 3em;
-}
-
 .wrapper.style1>.inner {
     padding: 3em;
 }
-
 
 .content h2 {
     margin-bottom: 0px;
@@ -33,19 +28,44 @@ section.committed-to {
     background: #bec9b0;
 }
 
-section.private-community-yoga .content {
-    max-width: 65% !important;
-    margin: 0 !important;
-    padding: 0 !important;
+@media screen and (min-width: 981px) {
+    section.private-community-yoga .content {
+        max-width: 65% !important;
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+    section.private-community-yoga .content>div.private-yoga {
+        border-bottom: 1px solid rgb(0 0 0 / 8%);
+    }
+    section.private-community-yoga .content>div {
+        padding: 3em;
+        margin: 0 auto;
+    }
+    a.book-now-button {
+        font-size: 0.5rem !important;
+        font-style: normal;
+    }
 }
 
-section.private-community-yoga .content>div {
-    padding: 3em;
-    margin: 0 auto;
-}
+@media screen and (max-width: 980px) and (orientation: portrait) {
+    section.private-community-yoga .content {
+        margin: 0 !important;
+        padding: 0 !important;
+    }
 
-section.private-community-yoga .content>div.private-yoga {
-    border-bottom: 1px solid rgb(0 0 0 / 8%);
+    section.private-community-yoga .content>div {
+        padding: 2.5rem 2rem 0.5rem 2rem;
+        margin: 0 auto;
+    }
+    .wrapper.style1>.inner {
+        padding: 1em;
+    }
+    .items.style2 {
+        margin: 1rem 0;
+    }
+    .items.style2.big>section {
+        padding: 2.625rem 1.625rem 0.625rem 1.625rem !important;
+    }
 }
 
 section.private-community-yoga .content>div.community-yoga {
@@ -59,8 +79,6 @@ section.community-yoga {
 section.faqs {
     background: #bec9b0;
 }
-
-section.contact {}
 
 footer {
     background: #e3e9db;
@@ -79,7 +97,7 @@ section.home .content a {
 }
 
 section.home video {
-    filter: blur(10px) brightness(0.6);
+    filter: blur(6px) brightness(0.6);
 }
 
 section.reviews img {
@@ -147,7 +165,7 @@ section.faqs section.last-faq {
     z-index: 150000;
     color: white;
     padding: 10px 35px;
-    background: rgba(0,0,0,0.5);
+    background: rgba(0, 0, 0, 0.5);
 }
 
 .header-menu a {
@@ -161,9 +179,4 @@ section.faqs section.last-faq {
 
 .header-menu a:hover {
     text-decoration: underline;
-}
-
-a.book-now-button {
-    font-size: 0.5rem !important;
-    font-style: normal;
 }
