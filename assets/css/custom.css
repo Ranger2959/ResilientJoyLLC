@@ -1,5 +1,5 @@
 body {
-    background: #cfbbae;
+    background: #a7b199;
 }
 
 section.committed-to h4 {
@@ -26,11 +26,11 @@ section.committed-to h4 {
 }
 
 section.hello {
-    background: #e9e0db;
+    background: #e3e9db;
 }
 
 section.committed-to {
-    background: #dbccc2;
+    background: #bec9b0;
 }
 
 section.private-community-yoga .content {
@@ -49,7 +49,7 @@ section.private-community-yoga .content>div.private-yoga {
 }
 
 section.private-community-yoga .content>div.community-yoga {
-    background: #e9e0db;
+    background: #e3e9db;
 }
 
 section.community-yoga {
@@ -57,13 +57,13 @@ section.community-yoga {
 }
 
 section.faqs {
-    background: #dbccc2;
+    background: #bec9b0;
 }
 
 section.contact {}
 
 footer {
-    background: #e9e0db;
+    background: #e3e9db;
 }
 
 section.home .content {
